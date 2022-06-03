@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">UTS Praktik</string>
+
+    <string name="form_pengisian_data">Form Pengisian Data</string>
+    <string name="info">Info</string>
+    <string name="description_info">Form berikut ini bertujuan untuk memberikan informasi kepada pusat agar dapat mudah dilaporkan</string>
+
+    <string name="jenis_tes">Jenis Tes • Harus Diisi</string>
+    <string name="rapid_test">Rapid Test</string>
+    <string name="pcr">PCR</string>
+
+    <string name="tanggal_konfirmasi">Tanggal Konfirmasi • Harus Diisi</string>
+    <string name="pilih_tanggal">Pilih Tanggal</string>
+
+    <string name="nik">NIK</string>
+    <string name="masukkan_nik">Masukkan NIK</string>
+
+    <string name="nama">Nama • Harus Diisi</string>
+    <string name="masukkan_nama">Masukkan Nama</string>
+
+    <string name="tanggal_lahir">Tanggal Lahir • Harus Diisi</string>
+
+    <string name="jenis_kelamin">Jenis Kelamin • Harus Diisi</string>
+    <string name="laki2">Laki-laki</string>
+    <string name="perempuan">Perempuan</string>
+
+    <string name="hubungan">Hubungan Dengan Anda • Harus Diisi</string>
+    <string name="orangtua">Orang Tua</string>
+    <string name="suamiistri">Suami/Istri</string>
+    <string name="anak">Anak</string>
+    <string name="lainnya">Kerabat Lainnya</string>
+
+    <string name="checkbox">Dengan ini saya menyetujui bahwa data yang saya isikan adalah benar</string>
+    
+    <string name="selanjutnya">Selanjutnya</string>
+
+    <string name="kembali">Kembali</string>
+
+    <string name="cek_data">Cek Kembali Isian Data</string>
+    <string name="jenis_tes2">Jenis Tes</string>
+    <string name="tanggal_konfirmasi2">Tanggal Konfirmasi</string>
+    <string name="nama2">Nama</string>
+    <string name="tanggal_lahir2">Tanggal Lahir</string>
+    <string name="jenis_kelamin2">Jenis Kelamin</string>
+    <string name="hubungan2">Hubungan Dengan Anda</string>
+
+    <string name="cek_hasil_tes">Cek Hasil Tes</string>
+
+    <string name="ubah">Ubah</string>
+</resources>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CekDataActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:contentDescription="@string/kembali"
+            android:padding="0dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/title_form"
+            android:layout_width="250dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_black"
+            android:gravity="top"
+            android:text="@string/cek_data"
+            android:textColor="@color/title_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/jenis_tes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/jenis_tes2"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/jenis_tes_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/jenis_tes2"
+            android:textSize="14sp"
+            android:fontFamily="@font/roboto"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/tanggal_konfirmasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/tanggal_konfirmasi2"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/tanggal_konfirmasi_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/tanggal_konfirmasi2"
+            android:textSize="14sp"
+            android:fontFamily="@font/roboto"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/nik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/nik"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/nik_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/nik"
+            android:textSize="14sp"
+            android:fontFamily="@font/roboto"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/nama2"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/nama_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/nama2"
+            android:textSize="14sp"
+            android:fontFamily="@font/roboto"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/tanggal_lahir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/tanggal_lahir2"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/tanggal_lahir_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/tanggal_lahir2"
+            android:textSize="14sp"
+            android:fontFamily="@font/roboto"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/jenis_kelamin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/jenis_kelamin2"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/jenis_kelamin_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/jenis_kelamin2"
+            android:textSize="14sp"
+            android:fontFamily="@font/roboto"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/hubungan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/hubungan2"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/hubungan_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/hubungan2"
+            android:textSize="14sp"
+            android:fontFamily="@font/roboto"
+            android:gravity="top"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btncekhasiltes"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/cek_hasil_tes"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_button"
+            app:strokeWidth="2dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnubah"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/ubah"
+            android:textColor="@color/gray"
+            app:strokeColor="@color/gray"
+            app:strokeWidth="1dp">
+
+        </com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
+
+</ScrollView>
